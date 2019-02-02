@@ -1,6 +1,38 @@
 body {
+  margin: 0;
   font-family: 'Montserrat Alternates', sans-serif;
+  background-image: url(./img/guitar_header.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #010101;
+  color: #fff;
 }
 .logo {
   font-family: "sonsie one", cursive;
+  font-size: 50px;
+}
+h1,h2,h3 {
+  margin: 0;
+  padding: 20px 0;
+}
+.header {
+  border: 1px solid red;
+}
+.hero {
+  border: 1px solid red; 
+}
+div h2 {
+  background: #fff;
+  color: #010101;
+}
+.content {
+  border: 1px solid red;
+  background: #fff;
+  color: #010101;
+}
+.contact {
+  border: 1px solid red; 
+}
+.footer {
+  border: 1px solid red; 
 }
