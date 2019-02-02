@@ -1,3 +1,6 @@
+/* variables */
+
+
 body {
   margin: 0;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -7,32 +10,93 @@ body {
   background-color: #010101;
   color: #fff;
 }
+
 .logo {
   font-family: "sonsie one", cursive;
   font-size: 50px;
+  background: linear-gradient(90deg, rgb(113, 184, 255), #9b0af0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* -webkit-text-stroke: 1px white; agrega un perfil al texto */
+  text-shadow: 3px 3px 1px #9b0af080; agrega una sombra al texto
 }
-h1,h2,h3 {
+
+h1,
+h2,
+h3 {
   margin: 0;
   padding: 20px 0;
 }
+
 .header {
-  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
 }
+
+.menu {
+  display: flex;
+}
+.menu ul {
+  display: inherit;
+}
+.menu ul li {
+  display: inherit;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px 0;
+  margin: 0 30px;
+}
+
 .hero {
-  border: 1px solid red; 
+  display: flex;
+  align-items: center;
+  height: 300px;
 }
+
+.hero_title {
+  text-shadow: 3px 3px 2px #9b0af0;
+  /* -webkit-text-stroke: 1px black; agrega un perfil al texto */
+  font-size: 50px;
+  padding: 0;
+
+}
+
+.hero_text {
+  text-shadow: 3px 3px 2px #9b0af0;
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.hero_btn {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background: #9b0af080;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
 div h2 {
   background: #fff;
   color: #010101;
 }
+
 .content {
   border: 1px solid red;
   background: #fff;
   color: #010101;
 }
+
 .contact {
-  border: 1px solid red; 
+  border: 1px solid red;
 }
+
 .footer {
-  border: 1px solid red; 
+  border: 1px solid red;
 }
