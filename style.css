@@ -199,11 +199,21 @@ h3 {
 /* estilos responsivos */
 
 @media screen and (max-width: 760px) {
+
+  .menu ul li a {
+    margin: 0 10px;
+  }
+
+  /* .hero {
+    border: 1px solid red;
+  } */
+
   .contact {
     justify-content: center;
     flex-wrap: wrap;
     height: auto;
   }
+
   .contacto_directo {
     flex-wrap: wrap;
     justify-content: center;
