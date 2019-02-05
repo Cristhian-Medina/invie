@@ -19,7 +19,6 @@ body {
   -webkit-text-fill-color: transparent;
   /* -webkit-text-stroke: 1px white; agrega un perfil al texto */
   text-shadow: 3px 3px 1px #9b0af080;
-  agrega una sombra al texto
 }
 
 h1,
@@ -195,4 +194,18 @@ h3 {
 
 .footer a {
   text-decoration: none;
+}
+
+/* estilos responsivos */
+
+@media screen and (max-width: 760px) {
+  .contact {
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .contacto_directo {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
