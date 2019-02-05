@@ -29,53 +29,87 @@
     <div>
       <h1 class="hero_title">Guitarras <u>invie</u>sibles</h1>
       <p class="hero_text">Sé la estrella de rock que siempre quisiste ser</p>
-      <a class="hero_btn" href="#">Conoce mas</a>
+      <a class="hero_btn" href="#">Conoce más</a>
     </div>
   </section>
 
-  <div>
-    <h2>Nuestras guitarras</h2>
-  </div>
-
   <main class="content">
 
-    <article>
-      <img src="" alt="">
-      <h2>Invie Acustica</h2>
-      <p>Estilo vintage<br/>Madera pura<br/>Incluye estuche invisible de aluminio</p>
+    <div class="content_title">
+      <h2>Nuestras guitarras</h2>
+    </div>
+
+    <article class="guitar_container">
+      <div>
+        <img class="guitar_img" src="./img/invie-acustica.png" alt="guitarra invie acustica">
+      </div>
+      <div>
+        <h2 class="guitar_title">Invie Acustica</h2>
+        <p class="guitar_description">Estilo vintage<br/>Madera pura<br/>Incluye estuche invisible de aluminio</p>
+      </div>
     </article>
 
-    <article>
-      <img src="" alt="">
-      <h2>Invie Classic</h2>
-      <p>Estilo vintage<br/>Liviana<br/>Inicia tu camino como Rockstar</p>
+    <article class="guitar_container">
+      <div>
+        <img class="guitar_img" src="./img/invie-classic.png" alt="guitarra invie clasica">
+      </div>
+      <div>
+        <h2 class="guitar_title">Invie Classic</h2>
+        <p class="guitar_description">Estilo vintage<br/>Liviana<br/>Inicia tu camino como Rockstar</p>
+      </div>
     </article>
 
   </main>
 
   <section class="contact">
-    <form action="">
+    <form class="contacto_indirecto">
       <div class="logo">invie</div>
-      <p>Telefono<br/>01-8000-INVIE</p>
-      <p>E.mail<br/>contacto@invie.com</p>
-      <h4>Nombre</h4>
-      <input type="text">
-      <h4>E-mail</h4>
-      <input type="email"><br>
-      <input type="radio" name="gender" value="Mujer" checked>Mujer<br>
-      <input type="radio" name="gender" value="Hombre">Hombre<br>
-      <input type="checkbox" name="Cotización" id="">Cotización<br>
-      <input type="checkbox" name="Reclamos" id="">Reclamos<br>
-      <input type="checkbox" name="Comentarios" id="">Comentarios<br>
-      <input type="checkbox" name="Otros" id="">Otros<br>
-      <h4>Comentarios</h4>
-      <textarea name="comment" id="" cols="30" rows="5"></textarea>
-      <button type="submit">Enviar</button>
+      <p class="tel">Telefono<br/>01-8000-INVIE</p>
+      <p class="email">E.mail<br/>contacto@invie.com</p>
+    </form>
+    <form class="contacto_directo">
+      <div class="contacto">
+        <h4>Nombre</h4>
+        <input type="text">
+        <h4>E-mail</h4>
+        <input type="email"><br>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gender" value="Mujer" checked>
+            Mujer
+          </label>
+          <label>
+            <input type="radio" name="gender" value="Hombre">
+            Hombre<br>
+          </label>
+        </div>
+        <label class="checkbox">
+          <input type="checkbox" name="Cotización" id="">
+          Cotización
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="Reclamos" id="">
+          Reclamos<br>          
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="Comentarios" id="">
+          Comentarios
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="Otros" id="">
+          Otros<br>
+        </label>
+      </div>
+      <div class="comentarios">
+        <h4>Comentarios</h4>
+        <textarea name="comment" id="" cols="30" rows="5"></textarea>
+        <button type="submit">Enviar</button>
+      </div>
     </form>
   </section>
 
   <footer class="footer">
-    <p>Made whit love by @cris_mecasa</p>
+    <p>Made whit &#128147; by <a href="https://twitter.com/crismeca19" target="_blank">@cris_mecasa</a></p>
   </footer>
 
 </body>

@@ -13,12 +13,13 @@ body {
 
 .logo {
   font-family: "sonsie one", cursive;
-  font-size: 50px;
+  font-size: 75px;
   background: linear-gradient(90deg, rgb(113, 184, 255), #9b0af0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* -webkit-text-stroke: 1px white; agrega un perfil al texto */
-  text-shadow: 3px 3px 1px #9b0af080; agrega una sombra al texto
+  text-shadow: 3px 3px 1px #9b0af080;
+  agrega una sombra al texto
 }
 
 h1,
@@ -30,7 +31,7 @@ h3 {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   height: 120px;
 }
@@ -38,13 +39,17 @@ h3 {
 .menu {
   display: flex;
 }
+
 .menu ul {
   display: inherit;
 }
+
 .menu ul li {
   display: inherit;
 }
+
 .menu ul li a {
+  text-shadow: 1px 2px black;
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -55,13 +60,18 @@ h3 {
 .hero {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 300px;
+}
+
+.hero div {
+  width: 75%;
 }
 
 .hero_title {
   text-shadow: 3px 3px 2px #9b0af0;
   /* -webkit-text-stroke: 1px black; agrega un perfil al texto */
-  font-size: 50px;
+  font-size: 60px;
   padding: 0;
 
 }
@@ -82,22 +92,107 @@ h3 {
   border-radius: 10px;
 }
 
-div h2 {
-  font-size: 30px;
+.content {
+  border: solid transparent;
   background: #fff;
+  color: #010101;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content_title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content_title h2 {
+  padding-bottom: 0;
+  font-size: 30px;
   color: #010101;
 }
 
-.content {
-  border: 1px solid red;
-  background: #fff;
-  color: #010101;
+.guitar_container {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 40px 10px;
+  width: 75%;
+}
+
+.guitar_img {
+  height: 300px;
+}
+
+.guitar_title {
+  font-size: 45px;
+  text-align: center;
 }
 
 .contact {
-  border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 250px;
+}
+
+.contact h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.contacto_directo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacto {
+  margin-right: 20px;
+}
+
+.radio {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.checkbox {
+  font-size: 13px;
+}
+
+.comentarios textarea {
+  height: 60px;
+}
+
+.comentarios button {
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background: #9b0af080;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 15px;
+}
+
+.tel {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.email {
+  display: inline-block;
 }
 
 .footer {
-  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
 }
