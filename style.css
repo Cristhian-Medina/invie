@@ -258,6 +258,10 @@ h3 {
 
 @media screen and (max-width: 710px) {
   
+  body {
+    background-size: 120%;
+  }
+
   .logo {
     text-align: center;
   }
@@ -273,6 +277,10 @@ h3 {
 }
 
 @media screen and (max-width: 550px) {
+
+  body {
+    background-size: 150%;
+  }
 
   .header {
     display: inline-block;
@@ -297,6 +305,11 @@ h3 {
 }
 
 @media screen and (max-width: 480px) {
+
+  body {
+    background: #252f3d;
+  }
+
   .contact {
     height: 550px;
   }
