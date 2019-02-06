@@ -3,10 +3,10 @@
 body {
   margin: 0;
   font-family: 'Montserrat Alternates', sans-serif;
-  background-image: url(./img/background.png);
+  background-image: url(./img/guitar_header.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #252f3d;
+  background-color: black;
   color: #fff;
 }
 
@@ -14,7 +14,7 @@ body {
   font-family: "sonsie one", cursive;
   font-size: 75px;
   background: linear-gradient(90deg, rgb(113, 184, 255), #9b0af0);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   /* -webkit-text-stroke: 1px white; agrega un perfil al texto */
   text-shadow: 3px 3px 1px #9b0af080;
@@ -47,7 +47,7 @@ h3 {
 }
 
 .menu ul li a {
-  text-shadow: 1px 2px #252f3d;
+  text-shadow: 1px 2px black;
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -92,7 +92,7 @@ h3 {
 .content {
   border: solid transparent;
   background: #fff;
-  color: #252f3d;
+  color: black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -107,13 +107,13 @@ h3 {
 .content_title h2 {
   padding-bottom: 0;
   font-size: 30px;
-  color: #252f3d;
+  color: black;
 }
 
 .guitar_container {
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid #252f3d;
+  border: 1px solid black;
   border-radius: 10px;
   margin: 40px 10px;
   width: 75%;
@@ -258,6 +258,10 @@ h3 {
 
 @media screen and (max-width: 710px) {
   
+  body {
+    background-size: 120%;
+  }
+
   .logo {
     text-align: center;
   }
@@ -273,6 +277,10 @@ h3 {
 }
 
 @media screen and (max-width: 550px) {
+
+  body {
+    background-size: 150%;
+  }
 
   .header {
     display: inline-block;
@@ -297,6 +305,7 @@ h3 {
 }
 
 @media screen and (max-width: 480px) {
+
   .contact {
     height: 550px;
   }
