@@ -7,7 +7,7 @@ body {
   background-image: url(./img/background.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #010101;
+  background-color: #252f3d;
   color: #fff;
 }
 
@@ -19,7 +19,6 @@ body {
   -webkit-text-fill-color: transparent;
   /* -webkit-text-stroke: 1px white; agrega un perfil al texto */
   text-shadow: 3px 3px 1px #9b0af080;
-  agrega una sombra al texto
 }
 
 h1,
@@ -49,7 +48,7 @@ h3 {
 }
 
 .menu ul li a {
-  text-shadow: 1px 2px black;
+  text-shadow: 1px 2px #252f3d;
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -95,7 +94,7 @@ h3 {
 .content {
   border: solid transparent;
   background: #fff;
-  color: #010101;
+  color: #252f3d;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -110,13 +109,13 @@ h3 {
 .content_title h2 {
   padding-bottom: 0;
   font-size: 30px;
-  color: #010101;
+  color: #252f3d;
 }
 
 .guitar_container {
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid black;
+  border: 1px solid #252f3d;
   border-radius: 10px;
   margin: 40px 10px;
   width: 75%;
@@ -194,5 +193,6 @@ h3 {
 }
 
 .footer a {
+  color: #fff;
   text-decoration: none;
 }
