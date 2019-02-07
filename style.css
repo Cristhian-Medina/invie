@@ -11,13 +11,6 @@ body {
 }
 
 .logo {
-  font-family: "sonsie one", cursive;
-  font-size: 75px;
-  background: linear-gradient(90deg, rgb(113, 184, 255), #9b0af0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  /* -webkit-text-stroke: 1px white; agrega un perfil al texto */
-  text-shadow: 3px 3px 1px #9b0af080;
 }
 
 h1,
@@ -200,7 +193,6 @@ h3 {
 @media screen and (max-width: 900px) {
   
   .logo {
-    font-size: 60px;
   }
 
   .hero div {
@@ -263,7 +255,6 @@ h3 {
   }
 
   .logo {
-    text-align: center;
   }
   
   .contact {
