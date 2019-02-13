@@ -2,7 +2,7 @@ esta es una plantilla sobre como hacer un pull request
 
 # Descripción
 
-##¿Que ha cambiado?
+## ¿Que ha cambiado?
 
 - [ ] Frontend
 - [ ] Backend
