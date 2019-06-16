@@ -2,18 +2,116 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Sonsie+One|Montserrat+Alternates:600,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="./style.css">
   <title>Invie</title>
 </head>
+
 <body>
-  <img src="./img/header.jpg" alt="">
-  <img src="./img/hero.jpg" alt="">
-  <img src="./img/acustica.jpg" alt="">
-  <img src="./img/clasica.jpg" alt="">
-  <img src="./img/footer.jpg" alt="">
-  <img src="./img/invie-responsive.png" alt="" class="responsive">
-  <img src="./img/nueva-version.jpg" alt="">
+
+  <header class="header">
+    <img class="logo" src="./img/invie_color.png" alt="logo invie color">
+    <nav class="menu">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Guitarras</a>
+        </li>
+        <li>
+          <a href="#">Precios</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1 class="hero_title">Guitarras <u>invie</u>sibles</h1>
+      <p class="hero_text">Sé la estrella de rock que siempre quisiste ser</p>
+      <a class="hero_btn" href="#">Conoce más</a>
+    </div>
+  </section>
+
+  <main class="content">
+
+    <div class="content_title">
+      <h2>Nuestras guitarras</h2>
+    </div>
+
+    <article class="guitar_container">
+      <div class="guitar_container_img">
+        <img class="guitar_img" src="./img/invie-acustica.png" alt="guitarra invie acustica">
+      </div>
+      <div>
+        <h2 class="guitar_title">Invie Acustica</h2>
+        <p class="guitar_description">Estilo vintage<br/>Madera pura<br/>Incluye estuche invisible de aluminio</p>
+      </div>
+    </article>
+
+    <article class="guitar_container">
+      <div class="guitar_container_img">
+        <img class="guitar_img" src="./img/invie-classic.png" alt="guitarra invie clasica">
+      </div>
+      <div>
+        <h2 class="guitar_title">Invie Classic</h2>
+        <p class="guitar_description">Estilo vintage<br/>Liviana<br/>Inicia tu camino como Rockstar</p>
+      </div>
+    </article>
+
+  </main>
+
+  <section class="contact">
+    <form class="contacto_indirecto">
+      <img class="logo" src="./img/invie-white.png" alt="logo invie blanco">
+      <p class="tel">Telefono<br/>01-8000-INVIE</p>
+      <p class="email">E.mail<br/>contacto@invie.com</p>
+    </form>
+    <form class="contacto_directo">
+      <div class="contacto">
+        <h4>Nombre</h4>
+        <input type="text">
+        <h4>E-mail</h4>
+        <input type="email"><br>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gender" value="Mujer" checked>
+            Mujer
+          </label>
+          <label>
+            <input type="radio" name="gender" value="Hombre">
+            Hombre<br>
+          </label>
+        </div>
+        <label class="checkbox">
+          <input type="checkbox" name="Cotización" id="">
+          Cotización
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="Reclamos" id="">
+          Reclamos<br>          
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="Comentarios" id="">
+          Comentarios
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="Otros" id="">
+          Otros<br>
+        </label>
+      </div>
+      <div class="comentarios">
+        <h4>Comentarios</h4>
+        <textarea name="comment" id="" cols="30" rows="5"></textarea>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>Made whit &#128147; by <a href="https://twitter.com/crismeca19" target="_blank">@cris_meca</a></p>
+  </footer>
+
 </body>
 </html>
