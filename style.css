@@ -3,14 +3,20 @@
 body {
   margin: 0;
   font-family: 'Montserrat Alternates', sans-serif;
-  background-image: url(./img/background.png);
+  background-image: url(./img/guitar_header.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #252f3d;
-  color: #fff;
+  background-color: black;
+  color: white;
 }
 
 .logo {
+  font-family: "sonsie one", cursive;
+  font-size: 75px;
+  background: linear-gradient(90deg, rgb(113, 184, 255), #9b0af0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 3px 3px 1px #9b0af080;
 }
 
 h1,
@@ -40,7 +46,7 @@ h3 {
 }
 
 .menu ul li a {
-  text-shadow: 1px 2px #252f3d;
+  text-shadow: 1px 2px black;
   text-decoration: none;
   color: white;
   font-size: 20px;
@@ -61,7 +67,6 @@ h3 {
 
 .hero_title {
   text-shadow: 3px 3px 2px #9b0af0;
-  /* -webkit-text-stroke: 1px black; agrega un perfil al texto */
   font-size: 60px;
   padding: 0;
 }
@@ -76,7 +81,7 @@ h3 {
 .hero_btn {
   font-size: 20px;
   text-decoration: none;
-  color: #fff;
+  color: white;
   background: #9b0af080;
   padding: 5px 15px;
   border-radius: 10px;
@@ -84,8 +89,8 @@ h3 {
 
 .content {
   border: solid transparent;
-  background: #fff;
-  color: #252f3d;
+  background: white;
+  color: black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -100,13 +105,13 @@ h3 {
 .content_title h2 {
   padding-bottom: 0;
   font-size: 30px;
-  color: #252f3d;
+  color: black;
 }
 
 .guitar_container {
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid #252f3d;
+  border: 1px solid black;
   border-radius: 10px;
   margin: 40px 10px;
   width: 75%;
@@ -160,7 +165,7 @@ h3 {
   display: block;
   font-size: 20px;
   text-decoration: none;
-  color: #fff;
+  color: white;
   background: #9b0af080;
   padding: 5px 15px;
   border-radius: 10px;
@@ -227,7 +232,7 @@ h3 {
 
   .guitar_container {
     display: inline;
-    width: 80%;
+    /* width: 80%; */
   }
 
   .guitar_container_img {
