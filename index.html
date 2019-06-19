@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
   <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css?family=Sonsie+One|Montserrat+Alternates:600,700" rel="stylesheet"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Sonsie+One|Montserrat+Alternates:600,700" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <title>Invie</title>
 </head>
 
 <body>
-
+  <!-- header -->
   <header class="header">
-    <img class="logo" src="./img/invie_color.png" alt="logo invie color">
+    <a href="./index.html">
+      <img class="logo" src="./img/invie_color.png" alt="logo invie color">
+    </a>
     <nav class="menu">
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#guitarras">Guitarras</a>
         </li>
         <li>
-          <a href="#">Guitarras</a>
-        </li>
-        <li>
-          <a href="#">Precios</a>
+          <a href="./precios.html">Precios</a>
         </li>
       </ul>
     </nav>
   </header>
-
+  <!-- hero -->
   <section class="hero">
     <div>
       <h1 class="hero_title">Guitarras <u>invie</u>sibles</h1>
@@ -33,40 +34,44 @@
       <a class="hero_btn" href="#">Conoce más</a>
     </div>
   </section>
-
+  <!-- main -->
   <main class="content">
 
-    <div class="content_title">
+    <div id="guitarras" class="guitars">
       <h2>Nuestras guitarras</h2>
     </div>
 
     <article class="guitar_container">
-      <div class="guitar_container_img">
-        <img class="guitar_img" src="./img/invie-acustica.png" alt="guitarra invie acustica">
-      </div>
-      <div>
+      <img class="guitar_img right" src="./img/invie-acustica.png" alt="guitarra invie acustica">
+      <div class="guitar_description">
         <h2 class="guitar_title">Invie Acustica</h2>
-        <p class="guitar_description">Estilo vintage<br/>Madera pura<br/>Incluye estuche invisible de aluminio</p>
+        <ol>
+          <li>Estilo vintage</li>
+          <li>Madera pura</li>
+          <li>Incluye estuche invisible de aluminio</li>
+        </ol>
       </div>
     </article>
 
     <article class="guitar_container">
-      <div class="guitar_container_img">
-        <img class="guitar_img" src="./img/invie-classic.png" alt="guitarra invie clasica">
-      </div>
-      <div>
+      <img class="guitar_img left" src="./img/invie-classic.png" alt="guitarra invie clasica">
+      <div class="guitar_description">
         <h2 class="guitar_title">Invie Classic</h2>
-        <p class="guitar_description">Estilo vintage<br/>Liviana<br/>Inicia tu camino como Rockstar</p>
+        <ol>
+          <li>Estilo vintage</li>
+          <li>Liviana</li>
+          <li>Inicia tu camino como Rockstar</li>
+        </ol>
       </div>
     </article>
 
   </main>
-
+  <!-- contact -->
   <section class="contact">
     <form class="contacto_indirecto">
       <img class="logo" src="./img/invie-white.png" alt="logo invie blanco">
-      <p class="tel">Telefono<br/>01-8000-INVIE</p>
-      <p class="email">E.mail<br/>contacto@invie.com</p>
+      <a class="tel" href="tel:01-8000-INVIE">Telefono<br />01-8000-INVIE</a>
+      <a class="email" href="mailto:contacto@invie.com">E.mail<br />contacto@invie.com</a>
     </form>
     <form class="contacto_directo">
       <div class="contacto">
@@ -85,19 +90,19 @@
           </label>
         </div>
         <label class="checkbox">
-          <input type="checkbox" name="Cotización" id="">
+          <input type="checkbox" name="Cotización" id="" value="cotizacion">
           Cotización
         </label>
         <label class="checkbox">
-          <input type="checkbox" name="Reclamos" id="">
-          Reclamos<br>          
+          <input type="checkbox" name="Reclamos" id="" value="reclamos">
+          Reclamos<br>
         </label>
         <label class="checkbox">
-          <input type="checkbox" name="Comentarios" id="">
+          <input type="checkbox" name="Comentarios" id="" value="comentarios">
           Comentarios
         </label>
         <label class="checkbox">
-          <input type="checkbox" name="Otros" id="">
+          <input type="checkbox" name="Otros" id="" value="otros">
           Otros<br>
         </label>
       </div>
@@ -108,10 +113,10 @@
       </div>
     </form>
   </section>
-
+  <!-- footer -->
   <footer class="footer">
     <p>Made whit &#128147; by <a href="https://twitter.com/crismeca19" target="_blank">@cris_meca</a></p>
   </footer>
-
 </body>
+
 </html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Sonsie+One|Montserrat+Alternates:600,700" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Precios</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="./index.html">
+            <img class="logo" src="./img/invie_color.png" alt="logo invie color">
+        </a>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="./index.html#guitarras">Guitarras</a>
+                </li>
+                <li>
+                    <a href="./precios.html">Precios</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Table -->
+    <section class="table_container">
+        <table class="table">
+            <thead class="thead">
+                <tr>
+                    <th>Modelo</th>
+                    <th>Precio</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody class="tbody">
+                <tr>
+                    <td>Invie Acustica</td>
+                    <td>$ 100.000</td>
+                    <td>Una guitarra con estilo vintage, fabricada en madera pura.</td>
+                </tr>
+                <tr>
+                    <td>Invie Classic</td>
+                    <td>$ 120.000</td>
+                    <td>Una guitarra con estilo vintage, fabricada en materiales muy livianos.</td>
+                </tr>
+                <tr>
+                    <td>Invie Custom</td>
+                    <td>$ 200.000</td>
+                    <td>Una guitarra con tu propio estilo, fabricada especialmente para tí.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- contact -->
+    <section class="contact">
+        <form class="contacto_indirecto">
+            <img class="logo" src="./img/invie-white.png" alt="logo invie blanco">
+            <a class="tel" href="tel:01-8000-INVIE">Telefono<br />01-8000-INVIE</a>
+            <a class="email" href="mailto:contacto@invie.com">E.mail<br />contacto@invie.com</a>
+        </form>
+        <form class="contacto_directo">
+            <div class="contacto">
+                <h4>Nombre</h4>
+                <input type="text">
+                <h4>E-mail</h4>
+                <input type="email"><br>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="gender" value="Mujer" checked>
+                        Mujer
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="Hombre">
+                        Hombre<br>
+                    </label>
+                </div>
+                <label class="checkbox">
+                    <input type="checkbox" name="Cotización" id="" value="cotizacion">
+                    Cotización
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" name="Reclamos" id="" value="reclamos">
+                    Reclamos<br>
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" name="Comentarios" id="" value="comentarios">
+                    Comentarios
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" name="Otros" id="" value="otros">
+                    Otros<br>
+                </label>
+            </div>
+            <div class="comentarios">
+                <h4>Comentarios</h4>
+                <textarea name="comment" id="" cols="30" rows="5"></textarea>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <p>Made whit &#128147; by <a href="https://twitter.com/crismeca19" target="_blank">@cris_meca</a></p>
+    </footer>
+</body>
+
+</html>
